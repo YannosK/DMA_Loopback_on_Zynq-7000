@@ -57,3 +57,6 @@ platform active {DMA_Loopback_v1}
 bsp reload
 platform clean
 platform generate
+platform clean
+platform active {DMA_Loopback_v1}
+platform generate

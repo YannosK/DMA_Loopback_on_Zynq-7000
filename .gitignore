@@ -1,5 +1,6 @@
 # vivado unnecessary files
 /designs/vivado_2022.2/DMA_Loopback/DMA_Loopback.cache
+/designs/vivado_2022.2/DMA_Loopback_IRQ/DMA_Loopback_IRQ.cache
 
 # vitis unnecessary files
 /designs/vitis_2022.2/.metadata
