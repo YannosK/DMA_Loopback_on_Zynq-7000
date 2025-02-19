@@ -23,3 +23,5 @@ bsp reload
 platform active {DMA_Loopback_IRQ}
 bsp reload
 platform generate -domains 
+platform clean
+platform generate

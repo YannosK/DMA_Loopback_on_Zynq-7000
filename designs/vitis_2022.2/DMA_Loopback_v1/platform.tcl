@@ -60,3 +60,4 @@ platform generate
 platform clean
 platform active {DMA_Loopback_v1}
 platform generate
+platform generate -domains standalone_ps7_cortexa9_0,zynq_fsbl 

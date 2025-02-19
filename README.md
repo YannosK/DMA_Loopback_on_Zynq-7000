@@ -113,6 +113,11 @@ All that was described above for the folder structure are true. The applications
 
 [DMA_Loopback_IRQ_example](./designs/vitis_2022.2/DMA_Loopback_IRQ_example/) is an application that it is based on the provided example of Xilinx (imported from the BSP settings) called "xaxidma_example_simple_intr"
 
+**_Memory safe application using malloc_**
+
+Like in the polling example, dynamic memory allocation using `malloc` happens on the heap which resides in the DDR. This example is not dependant on defines from `xparameters.h`. This is showcased in the [DMA_Loopback_IRQ_memorysafe](./designs/vitis_2022.2/DMA_Loopback_IRQ_memorysafe/).
+
+
 ### Tips
 - some files that are better to check out on Vitis cause they are GUI based, even though you can do mass changes on them here using VIM.
 - when you create files in vitis it automatically fills in some boiler plate code
